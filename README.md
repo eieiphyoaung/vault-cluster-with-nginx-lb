@@ -26,15 +26,15 @@ Network Mode: Bridge
 Subnet: 172.18.0.0/16
 Gateway: 172.18.0.1
 
-4. User Access
 
-Users connect to the Vault UI or API via:
+
+## Getting Started
+
+Clone the repository and run 
+
+```docker compose up``` 
 
 URL: https://localhost:8888
 
 NGINX handles HTTPS termination and forwards the requests to available Vault nodes.
-
-## Getting Started
-
-Clone the repository and run docker compose up 
 
