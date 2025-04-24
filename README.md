@@ -15,8 +15,8 @@ Ports: All Vault servers listen on port 8200
 Container Name: vault-nginx-lb  
 IP Address: 172.18.0.5 (internal Docker network)  
 Host Access:  
-    Listens on port 8888 on the host  
-    Internally forwards to port 443 (HTTPS)  
+- Listens on port 8888 on the host  
+- Internally forwards to port 443 (HTTPS)  
 SSL: Self-signed SSL certificate (vault-nginx.crt, vault-nginx.key)  
 Load Balancing Strategy: least_conn to evenly distribute requests to available Vault servers
 
